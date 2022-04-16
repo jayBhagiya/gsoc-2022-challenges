@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gsoc/gsoc_labyrinth.hpp
+string
+-
+vector
+-
+
+../include/labyrinth.h
+gsoc/gsoc_labyrinth.hpp
+../include/gsoc/gsoc_labyrinth.hpp
+
+/home/jay-bhagiya/Codes/jderobot/cpp-challenge/labyrinth-solution-2022/src/main.cpp
+iostream
+-
+labyrinth.h
+/home/jay-bhagiya/Codes/jderobot/cpp-challenge/labyrinth-solution-2022/src/labyrinth.h
+
