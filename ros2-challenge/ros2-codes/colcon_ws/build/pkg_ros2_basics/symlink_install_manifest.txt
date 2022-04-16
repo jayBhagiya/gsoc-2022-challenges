@@ -1,0 +1,17 @@
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/lib/pkg_ros2_basics/talker
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/lib/pkg_ros2_basics/listener
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/ament_index/resource_index/package_run_dependencies/pkg_ros2_basics
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/ament_index/resource_index/parent_prefix_path/pkg_ros2_basics
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/ament_prefix_path.sh
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/ament_prefix_path.dsv
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/path.sh
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/path.dsv
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.bash
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.sh
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.zsh
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.dsv
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/package.dsv
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/ament_index/resource_index/packages/pkg_ros2_basics
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/cmake/pkg_ros2_basicsConfig.cmake
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/cmake/pkg_ros2_basicsConfig-version.cmake
+/home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/package.xml

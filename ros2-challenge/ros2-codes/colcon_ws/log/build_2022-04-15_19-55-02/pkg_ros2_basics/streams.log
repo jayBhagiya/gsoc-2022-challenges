@@ -1,0 +1,82 @@
+[0.021s] Invoking command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jay-b/colcon_ws/src/pkg_ros2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay-b/colcon_ws/install/pkg_ros2_basics
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.144s] -- The CXX compiler identification is GNU 9.4.0
+[0.150s] -- Check for working C compiler: /usr/bin/cc
+[0.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.226s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++
+[0.402s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.403s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Detecting CXX compile features
+[0.504s] -- Detecting CXX compile features - done
+[0.511s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.703s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.750s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.831s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.989s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.224s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.227s] -- Looking for pthread.h
+[1.307s] -- Looking for pthread.h - found
+[1.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.387s] -- Looking for pthread_create in pthreads
+[1.451s] -- Looking for pthread_create in pthreads - not found
+[1.452s] -- Looking for pthread_create in pthread
+[1.530s] -- Looking for pthread_create in pthread - found
+[1.532s] -- Found Threads: TRUE  
+[1.735s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.841s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.842s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.842s] -- Configured cppcheck include dirs: 
+[1.843s] -- Configured cppcheck exclude dirs and/or files: 
+[1.844s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.844s] -- Configured cpplint exclude dirs and/or files: 
+[1.845s] -- Added test 'lint_cmake' to check CMake code style
+[1.847s] -- Added test 'uncrustify' to check C / C++ code style
+[1.847s] -- Configured uncrustify additional arguments: 
+[1.848s] -- Added test 'xmllint' to check XML markup files
+[1.855s] -- Configuring done
+[1.871s] -- Generating done
+[1.874s] -- Build files have been written to: /home/jay-b/colcon_ws/build/pkg_ros2_basics
+[1.883s] Invoked command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jay-b/colcon_ws/src/pkg_ros2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay-b/colcon_ws/install/pkg_ros2_basics
+[1.887s] Invoking command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jay-b/colcon_ws/build/pkg_ros2_basics -- -j8 -l8
+[1.930s] [35m[1mScanning dependencies of target talker[0m
+[1.930s] [35m[1mScanning dependencies of target listener[0m
+[1.975s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o[0m
+[1.976s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_node.cpp.o[0m
+[6.481s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.857s] [ 75%] Built target talker
+[10.131s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.688s] [100%] Built target listener
+[10.711s] Invoked command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jay-b/colcon_ws/build/pkg_ros2_basics -- -j8 -l8
+[10.792s] Invoking command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jay-b/colcon_ws/build/pkg_ros2_basics
+[10.812s] -- Install configuration: ""
+[10.813s] -- Execute custom install script
+[10.816s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/lib/pkg_ros2_basics/talker
+[10.836s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/lib/pkg_ros2_basics/listener
+[10.855s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/ament_index/resource_index/package_run_dependencies/pkg_ros2_basics
+[10.874s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/ament_index/resource_index/parent_prefix_path/pkg_ros2_basics
+[10.892s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/ament_prefix_path.sh
+[10.911s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/ament_prefix_path.dsv
+[10.931s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/path.sh
+[10.951s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/environment/path.dsv
+[10.970s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.bash
+[10.989s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.sh
+[11.007s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.zsh
+[11.026s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/local_setup.dsv
+[11.045s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/package.dsv
+[11.064s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/ament_index/resource_index/packages/pkg_ros2_basics
+[11.086s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/cmake/pkg_ros2_basicsConfig.cmake
+[11.105s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/cmake/pkg_ros2_basicsConfig-version.cmake
+[11.124s] -- Symlinking: /home/jay-b/colcon_ws/install/pkg_ros2_basics/share/pkg_ros2_basics/package.xml
+[11.146s] Invoked command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jay-b/colcon_ws/build/pkg_ros2_basics

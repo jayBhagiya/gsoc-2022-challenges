@@ -1,0 +1,1 @@
+/home/jay-b/colcon_ws/build/pkg_ros2_basics/ament_cmake_core/pkg_ros2_basicsConfig.cmake

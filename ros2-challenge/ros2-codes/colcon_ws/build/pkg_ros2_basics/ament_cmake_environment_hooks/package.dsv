@@ -1,0 +1,4 @@
+source;share/pkg_ros2_basics/local_setup.bash
+source;share/pkg_ros2_basics/local_setup.dsv
+source;share/pkg_ros2_basics/local_setup.sh
+source;share/pkg_ros2_basics/local_setup.zsh
