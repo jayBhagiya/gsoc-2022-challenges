@@ -1,4 +1,0 @@
-/home/jay-bhagiya/Codes/jderobot/cpp-challenge/labyrinth-solution/build/CMakeFiles/rebuild_cache.dir
-/home/jay-bhagiya/Codes/jderobot/cpp-challenge/labyrinth-solution/build/CMakeFiles/edit_cache.dir
-/home/jay-bhagiya/Codes/jderobot/cpp-challenge/labyrinth-solution/build/CMakeFiles/gsoc_main.dir
-/home/jay-bhagiya/Codes/jderobot/cpp-challenge/labyrinth-solution/build/CMakeFiles/gsoc_labyrinth.dir

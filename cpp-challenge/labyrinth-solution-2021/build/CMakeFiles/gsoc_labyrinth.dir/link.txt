@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../results/lib/libgsoc_labyrinth.a  CMakeFiles/gsoc_labyrinth.dir/src/gsoc_labyrinth.cpp.o
-/usr/bin/ranlib ../results/lib/libgsoc_labyrinth.a

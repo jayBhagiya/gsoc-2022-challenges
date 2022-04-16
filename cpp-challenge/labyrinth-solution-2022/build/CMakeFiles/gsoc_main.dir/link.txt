@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/gsoc_main.dir/src/main.cpp.o  -o gsoc_main  ../results/lib/libgsoc_labyrinth.a 
