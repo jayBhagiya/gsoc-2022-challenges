@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# Sample script to run a command in a Docker container
+#
+# Usage Example:
+# ./run <image_name>
+
+DOCKER_H=/home/jay-b
+
+# Define Docker volumes and environment variables
+DOCKER_VOLUMES="
+--volume="${XAUTHORITY}:/tmp/.Xauthority" \
+--volume="/tmp/.X11-unix:/tmp/.X11-unix" \
+--volume="${PWD}/../colcon_ws:${DOCKER_H}/colcon_ws" \
+--volume="${PWD}/../.persistent_zsh_history:${DOCKER_H}/.zsh_history" \
+--volume="${PWD}/../shared-dir:${DOCKER_H}/shared-dir" \
+"
+
+DOCKER_VARS="
+--env="DISPLAY" \
+--env="XAUTHORITY=/tmp/.Xauthority" \
+"
+
+DOCKER_ARGS=${DOCKER_VOLUMES}" "${DOCKER_VARS}
+
+docker run -it \
+      --rm \
+      --name ros2-foxy-c \
+      --network=host \
+      --privileged \
+      $DOCKER_ARGS $1
