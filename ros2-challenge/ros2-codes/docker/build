@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Sample script to build Docker images
+#
+# Usage Example:
+# ./build
+
+echo -e "Building main ros2 docker image.\n"
+docker build -f ros2_foxy.Dockerfile -t ros2/foxy:1.0 .
+
+echo -e "Building tb3 base docker image.\n"
+docker build -f tb3_base.Dockerfile -t tb3-base ..
+
+echo -e "Build final foxy-wrapper docker image.\n"
+docker build -f foxy_wrapper.Dockerfile -t foxy-main .
