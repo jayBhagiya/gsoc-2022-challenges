@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Sample script to run a command in a Docker container
+#
+# Usage Example:
+# ./run
+
+docker run --rm -it \
+	--device /dev/dri \
+	-p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 \
+	$1 ./start.sh
