@@ -1,6 +1,0 @@
-Invoking command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jay-b/colcon_ws/src/pkg_ros2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay-b/colcon_ws/install/pkg_ros2_basics
-Invoked command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jay-b/colcon_ws/src/pkg_ros2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay-b/colcon_ws/install/pkg_ros2_basics
-Invoking command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jay-b/colcon_ws/build/pkg_ros2_basics -- -j8 -l8
-Invoked command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jay-b/colcon_ws/build/pkg_ros2_basics -- -j8 -l8
-Invoking command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jay-b/colcon_ws/build/pkg_ros2_basics
-Invoked command in '/home/jay-b/colcon_ws/build/pkg_ros2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jay-b/colcon_ws/build/pkg_ros2_basics

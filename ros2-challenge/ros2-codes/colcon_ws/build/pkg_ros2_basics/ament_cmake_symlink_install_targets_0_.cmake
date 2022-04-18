@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jay-b/colcon_ws/build/pkg_ros2_basics/talker" "/home/jay-b/colcon_ws/build/pkg_ros2_basics/listener" "TARGETS" "talker" "listener" "DESTINATION" "lib/pkg_ros2_basics")
