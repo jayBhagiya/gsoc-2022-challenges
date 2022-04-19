@@ -1,6 +1,8 @@
 
 # ROS2 Challenge 
 
+> Assumming you have installed docker on your machine.
+
 - To Build the docker images and run the challenge, go through the below commands. For building the docker images, it may take around 30 mins.
 ```sh
 cd gsoc-2022-challenges/ros2-challenge/ros2-codes/docker/

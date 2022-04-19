@@ -1,6 +1,8 @@
 
 # Robotics Academy Challenge - Vacuum Cleaner
 
+> Assumming you have installed docker on your machine.
+
 - To get detailed Information about vacuum cleaner exercise, follow the [link][vc-link]. Exercise is solved using the `Random Coverage Algorithm`. Below are the commands to run the exercise.
 ```sh
 cd gsoc-2022-challenges/robotics-academy-challenge/docker/
