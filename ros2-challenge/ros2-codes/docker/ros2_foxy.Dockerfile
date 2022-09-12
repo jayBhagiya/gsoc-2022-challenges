@@ -4,7 +4,7 @@
 FROM osrf/ros:foxy-desktop
 
 # User arg
-ARG USER_NAME="jay-b"
+ARG USER_NAME="ubuntu"
 ARG USER_PASSWORD="ubuntu"
 
 # User env
@@ -23,7 +23,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
     vim \
     tmux \
     tree \
-    xclip \Empty continuation line found in:
+    xclip \
   # set up locale
   && locale-gen en_IN.UTF-8 \
   # add a user (--disabled-password: the user won't be able to use the account until the password is set)
