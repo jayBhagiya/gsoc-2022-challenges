@@ -5,7 +5,7 @@
 # Usage Example:
 # ./run <image_name>
 
-DOCKER_H=/home/jay-b
+DOCKER_H=/home/ubuntu
 
 # Define Docker volumes and environment variables
 DOCKER_VOLUMES="
